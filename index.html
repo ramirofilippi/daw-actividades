@@ -38,4 +38,34 @@
 <p><strong>El hecho sumó más episodios turbios tras la muerte de Villa en junio de 2024 y <a href="https://www.lacapital.com.ar/policiales/zona-sur-mataron-un-adolescente-que-fue-investigado-el-crimen-un-policia-n10197603.html">de González en mayo de 2025</a>, por hechos que se presumen ajenos a la causa de Bermúdez.</strong></p>
 
 <a href="https://www.lacapital.com.ar/policiales/rosario-tendra-primera-vez-un-juicio-jurados-12-ciudadanos-juzgaran-un-crimen-resonante-n10254299.html">Nota original de La Capital</a>
+
+<form>
+    <fieldset>
+    <legend>Incsribase a la Capital para recibir más noticias</legend>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre" />
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" />
+        
+        <label for="comentario">Comentario :</label>
+        <textarea id="comentario" name="comentario"></textarea>
+
+        <label for="sexo">Sexo :</label>
+        <select id="sexo" name="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+
+        <label for="tipo_noticia">Que tipo de noticias le interesa recibir?</label>
+        <input type="checkbox" id="policiales" name="tipo_noticia" value="policiales">
+        <label for="policiales">Policiales</label>
+        <input type="checkbox" id="deportes" name="tipo_noticia" value="deportes">
+        <label for="deportes">Deportes</label>
+        <input type="checkbox" id="espectaculos" name="tipo_noticia" value="espectaculos">
+        <label for="espectaculos">Espectáculos</label>
+
+        <button type="submit">Enviar</button>
+    </fieldset>
+</form>
 </html>
